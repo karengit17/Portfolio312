@@ -5,7 +5,7 @@ const isProd = process.env.NODE_ENV === "production";
 const nextConfig: NextConfig = {
   output: "export",
   // Replace 'portfolio' with your actual GitHub repo name if different
-  basePath: isProd ? /"Portfolio312" : "",
+  basePath: isProd ? "/Portfolio312" : "",
   trailingSlash: true,
   images: {
     unoptimized: true,
